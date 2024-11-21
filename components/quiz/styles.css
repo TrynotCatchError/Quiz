@@ -1,0 +1,136 @@
+/* Global Styles */
+.con {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      /* background-color: #f0f4f8; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 80vh;
+    }
+    
+    /* Quiz App Container */
+    .quiz-app-container {
+      background: #ffffff;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      padding: 20px;
+      width: 100%;
+      max-width: 600px;
+      text-align: center;
+      min-height: 60vh;
+      margin-top: 0;
+    }
+    
+    /* Header */
+    .quiz-header h2 {
+      font-size: 1.5rem;
+      color: #333333;
+      margin-bottom: 20px;
+    }
+    
+    /* Question Section */
+    .quiz-body {
+      margin-bottom: 20px;
+    }
+    
+    .question {
+      font-size: 1.25rem;
+      color: #444444;
+      margin-bottom: 20px;
+    }
+    
+    .options {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .option-btn {
+      padding: 10px 15px;
+      font-size: 1rem;
+      border: 1px solid #d0d0d0;
+      border-radius: 5px;
+      background-color: #ffffff;
+      color: #333333;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .option-btn:hover {
+      background-color: #f5f5f5;
+    }
+    
+    .option-btn.correct {
+      background-color: #4caf50;
+      color: #ffffff;
+      border-color: #4caf50;
+    }
+    
+    .option-btn.incorrect {
+      background-color: #f44336;
+      color: #ffffff;
+      border-color: #f44336;
+    }
+    
+    /* Footer */
+    .quiz-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+      color: #666666;
+    }
+    
+    .next-btn {
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: #007bff;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .next-btn:hover {
+      background-color: #0056b3;
+    }
+    
+    .next-btn:disabled {
+      background-color: #d0d0d0;
+      cursor: not-allowed;
+    }
+    
+    /* Results Section */
+    .results-section {
+      text-align: center;
+    }
+    
+    .results-section h2 {
+      font-size: 1.5rem;
+      color: #333333;
+      margin-bottom: 10px;
+    }
+    
+    .results-section p {
+      font-size: 1.25rem;
+      color: #444444;
+    }
+    
+    .restart-btn {
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: #007bff;
+      color: #ffffff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    
+    .restart-btn:hover {
+      background-color: #0056b3;
+    }
+    

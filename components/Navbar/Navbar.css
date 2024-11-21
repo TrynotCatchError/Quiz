@@ -1,0 +1,115 @@
+/* Navbar container */
+.navbar {
+     /* Semi-transparent background */
+    color: white;
+    
+  }
+  
+  .navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+  }
+  
+  /* Logo */
+  navbar-logo {
+    width: 60px; /* Adjust width as needed */
+    height: 60px; /* Adjust height as needed */
+    border: 2px solid rgb(2, 2, 2); /* Border around the logo */
+    border-radius: 50%; /* Rounded border *
+  }
+  
+  .logo-image {
+    width: 60px; /* Adjust width as needed */
+    height: 60px; /* Adjust height as needed */
+    border: 2px solid rgb(2, 2, 2); /* Border around the logo */
+    border-radius: 50%; /* Rounded border */
+  }
+  
+  /* Desktop Links */
+  .navbar-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .navbar-link {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 30px;
+    align-items: center;
+  }
+  
+  .navbar-link:hover {
+    color: #ddd;
+  }
+  
+  /* Social Icons */
+  .navbar-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-icon {
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .navbar-icon:hover {
+    color: #ddd;
+  }
+  
+  /* Hamburger Icon */
+  .navbar-hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+  }
+  
+  /* Mobile Menu */
+  .navbar-mobile-menu {
+    display: none;
+    flex-direction: column;
+     /* Slightly darker for mobile */
+    color: white;
+  }
+  
+  .navbar-mobile-link {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar-mobile-link:hover {
+    background-color:  #0077b6;;
+  }
+  
+  .navbar-mobile-icons {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 20px;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .navbar-links,
+    .navbar-icons {
+      display: none;
+    }
+  
+    .navbar-hamburger {
+      display: block;
+    }
+  
+    .navbar-mobile-menu {
+      display: flex;
+    }
+  }
+  

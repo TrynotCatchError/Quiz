@@ -1,0 +1,78 @@
+/* src/components/Projects.css */
+.projects {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .projects h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 2rem;
+  }
+  
+  .project-item{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    
+  }
+  
+  .project-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-item:hover .project-image {
+    transform: scale(1.1);
+  }
+  
+
+
+  
+
+  .project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    color: #0e0e0e;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    transition: opacity 0.3s ease;
+  }
+  
+  .project-item:hover .project-overlay {
+    opacity: 1;
+  }
+  
+  .project-overlay h3 {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 1000;
+  }
+  
+  .project-overlay p {
+    font-size: 1rem;
+    margin: 0.5rem 0 0;
+    font-weight: 1000;
+  }
+    
+
+  

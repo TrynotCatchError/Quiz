@@ -1,0 +1,77 @@
+/* Description.css */
+
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.con2{
+  background-color: #f0f4f8;
+}
+/* Container styling for the Description component */
+.description {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 2rem auto;
+  color: #333;
+  font-family: Arial, sans-serif;
+  min-width: 60vw;
+}
+
+/* Title styling */
+.description h2 {
+  font-size: 1.8rem;
+  color: #0077b6;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* Section titles */
+.description h3 {
+  font-size: 1.4rem;
+  color: #023e8a;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #0077b6;
+  padding-bottom: 0.2rem;
+}
+
+/* Paragraph styling */
+.description p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* List styling */
+.description ul {
+  margin-top: 0.5rem;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.description li {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Highlighted terms */
+.description strong {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Inline code styling */
+.description code {
+  background-color: #f4f4f4;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #d90429;
+}
